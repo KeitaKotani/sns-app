@@ -1,0 +1,146 @@
+{
+  "event_message": "GET | 200 | https://ydxnsjfraqnnptidrkxi.supabase.co/auth/v1/health | @supabase-infra/mgmt-api/68b0dd1",
+  "metadata": [
+    {
+      "load_balancer_experimental_routing": null,
+      "load_balancer_geo_aware_info": [],
+      "load_balancer_redirect_identifier": null,
+      "logflare_worker": [
+        {
+          "worker_id": "E3EY7S"
+        }
+      ],
+      "request": [
+        {
+          "cf": [
+            {
+              "asOrganization": "Amazon Technologies Inc.",
+              "asn": null,
+              "botManagement": [
+                {
+                  "corporateProxy": null,
+                  "detectionIds": [],
+                  "ja3Hash": "d67b094811e5145139d7cea5f014309f",
+                  "ja4": "t13d5212h1_b262b3658495_8e6e362c5eac",
+                  "ja4Signals": [],
+                  "jsDetection": [],
+                  "score": null,
+                  "staticResource": null,
+                  "verifiedBot": null
+                }
+              ],
+              "city": "Singapore",
+              "clientAcceptEncoding": null,
+              "clientTcpRtt": null,
+              "clientTrustScore": 1,
+              "colo": "SIN",
+              "continent": null,
+              "country": "SG",
+              "edgeRequestKeepAliveStatus": null,
+              "httpProtocol": "HTTP/1.1",
+              "isEUCountry": null,
+              "latitude": null,
+              "longitude": null,
+              "metroCode": null,
+              "postalCode": "018989",
+              "region": null,
+              "regionCode": null,
+              "requestPriority": null,
+              "timezone": "Asia/Singapore",
+              "tlsCipher": null,
+              "tlsClientAuth": [],
+              "tlsClientCiphersSha1": null,
+              "tlsClientExtensionsSha1": null,
+              "tlsClientExtensionsSha1Le": null,
+              "tlsClientHelloLength": null,
+              "tlsClientRandom": null,
+              "tlsExportedAuthenticator": [],
+              "tlsVersion": null,
+              "verifiedBotCategory": null
+            }
+          ],
+          "headers": [
+            {
+              "accept": "application/json",
+              "cf_cache_status": null,
+              "cf_connecting_ip": "18.141.221.136",
+              "cf_ipcountry": "SG",
+              "cf_ray": "9e8da5ff0879fd7d",
+              "content_length": null,
+              "content_location": null,
+              "content_range": null,
+              "content_type": "application/json",
+              "date": null,
+              "host": "ydxnsjfraqnnptidrkxi.supabase.co",
+              "prefer": null,
+              "range": null,
+              "referer": null,
+              "sb_gateway_mode": null,
+              "sb_gateway_version": null,
+              "user_agent": "@supabase-infra/mgmt-api/68b0dd1",
+              "x_client_info": null,
+              "x_forwarded_for": null,
+              "x_forwarded_host": null,
+              "x_forwarded_proto": "https",
+              "x_forwarded_user_agent": null,
+              "x_kong_proxy_latency": null,
+              "x_kong_upstream_latency": null,
+              "x_real_ip": "18.141.221.136"
+            }
+          ],
+          "host": "ydxnsjfraqnnptidrkxi.supabase.co",
+          "method": "GET",
+          "path": "/auth/v1/health",
+          "port": null,
+          "protocol": "https:",
+          "sb": [
+            {
+              "apikey": [
+                {
+                  "apikey": [
+                    {
+                      "error": "invalid",
+                      "hash": null,
+                      "prefix": "sb_temp_xI"
+                    }
+                  ],
+                  "authorization": []
+                }
+              ],
+              "auth_user": null,
+              "jwt": []
+            }
+          ],
+          "search": null,
+          "url": "https://ydxnsjfraqnnptidrkxi.supabase.co/auth/v1/health"
+        }
+      ],
+      "response": [
+        {
+          "headers": [
+            {
+              "cf_cache_status": "DYNAMIC",
+              "cf_ray": "9e8da5ff2755fd7d-SIN",
+              "content_length": null,
+              "content_location": null,
+              "content_range": null,
+              "content_type": "application/json",
+              "date": "Wed, 08 Apr 2026 01:55:11 GMT",
+              "proxy_status": null,
+              "sb_gateway_mode": null,
+              "sb_gateway_version": "1",
+              "sb_request_id": null,
+              "transfer_encoding": "chunked",
+              "x_kong_proxy_latency": null,
+              "x_kong_upstream_latency": null,
+              "x_sb_error_code": null
+            }
+          ],
+          "origin_time": 81,
+          "status_code": 200
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-04-08T01:55:11.855000"
+}
